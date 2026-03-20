@@ -1,0 +1,14 @@
+  .degradado {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+        display: Relative;
+        align-items: center;
+        justify-content: center;
+        
+background: rgba(0,151,136,1);
+background: -moz-linear-gradient(top, rgba(0,151,136,1) 0%, rgba(1,56,51,1) 100%);
+
+      }
+	  

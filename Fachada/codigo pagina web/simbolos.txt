@@ -1,0 +1,17 @@
+simbolos html
+&aacute= á
+&eacute= é
+&iacute= í
+&oacute= ó
+&uacute= ú
+&ntilde= ñ
+
+&Aacute= Á
+&Eacute= É
+&Iacute= Í
+&Oacute = Ó
+&Uacute= Ú
+&Ntilde= Ñ
+
+&#191 = ¿
+&#63= ?

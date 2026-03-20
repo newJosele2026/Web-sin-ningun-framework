@@ -1,0 +1,10 @@
+  @font-face{
+	font-family: "Futura-CondensedLight";
+	src: url("Futura-CondensedLight.otf");
+	  
+  }
+  .Futura_medium {
+	  font-family: "Futura-CondensedLight";
+  font-size: 100%;
+      }
+	  

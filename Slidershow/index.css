@@ -1,0 +1,91 @@
+h1{
+	color:#990000;
+}
+
+#slider{
+	width:95%;
+	margin:auto;
+	overflow:hidden;
+}
+
+#slider ul{
+	display: flex;
+	padding: 0;
+	width: 300%;	
+	animation: cambio 10s infinite;
+}
+
+#slider li{
+	list-style: none;
+	width:100%;
+}
+
+#slider img{
+	width: 50%;
+}
+
+@keyframes cambio{	
+	0% {margin-left: 0%;}
+	32% {margin-left: 0%;}
+	
+	33% {margin-left: -100%;}
+	65% {margin-left: -100%;}
+	
+	66% {margin-left: -200%;}
+	100% {margin-left: -200%;}
+}
+
+
+
+#div4{
+	float: left;
+	width: 50%;
+ 	margin-left:5%;
+	background-color: #d8ecf7;
+	border: 3px double #000000;
+}
+
+#div5{
+	float: right;
+	width: 16%;
+	margin-right:5%;
+	background-color: #d8ecf7;
+	border: 5px double #FFFFFF;
+	margin-bottom
+	
+}
+
+#div6{
+	float: right;
+	width: 16%;
+	margin-right:5%;
+	background-color: #d8ecf7;
+	border: 1px solid #afcde3;
+}
+
+#div7 hr{
+	background-color: red;
+	height: 10px;
+	margin-left: 0%;
+	margin-right: 0%;
+	content: "fs";	
+	-moz-border-bottom-colors: none;
+	-moz-border-image: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+	border-style: solid none;
+	border-width: 1px 0;
+	margin: 18px 0;
+}
+
+hr {border: 1PX; height: 4px; margin-top: 20px;background-image: linear-gradient(left, #fff, red, #fff); text-align: center;}
+hr:after {content:"TAMBIÉN ESTAMOS EN"; position: relative; top: -12px; display: inline-block; width: 15%; height: 24px; padding: 0;border: 1px solid black; border-radius: 24px; background: red; color: white; font-size: 12px; line-height: 24px; }
+
+#pagination li{
+	/*estilo a cada uno de los elementos(li) de nuestro menu*/
+	float:left;/* propiedad importante para que nuestro menu tome la forma horizontal*/
+	display:block;
+	position:center;
+}

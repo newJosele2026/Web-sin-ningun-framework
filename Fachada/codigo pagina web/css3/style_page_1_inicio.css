@@ -1,0 +1,89 @@
+/*LÃƒÆ’Ã‚Â­nea horizontal en la parte superios*/
+div.linea{
+	margin-top:2em;
+	margin-left:0 auto;
+	margin-right:0 auto;
+	height:1em;
+	background-color:#C7E046;
+	border:none;
+}
+
+.imagenfullarte{
+	  margin-top:-2%;
+	  margin-left:48%;
+	  width:50px;
+	  background-color:black;
+	  border: black solid 15px;
+    	border-radius: 0em 0em 1em 1em;	
+}
+
+/*Bloque de elementos del menu*/
+#div_menu{
+	display: flex;
+	justify-content: center;
+	align-items: center;  
+	margin-top:1em;
+}
+
+/*Elementos del menu*/
+#menu{
+	padding:0;
+}
+
+#menu li{
+	/*Menu horizontal*/
+	display: inline;
+}
+
+#menu li a {
+	/*DiseÃƒÆ’Ã‚Â±o de la letra en el menu*/
+	font-family: Arial;
+	font-size: 100%;
+	text-decoration: none;
+	float: left;
+	/*DiseÃƒÆ’Ã‚Â±o del menu*/
+	padding: 0.8em;
+	background-color: black;
+	color: #C7E046;
+}
+ 
+/*Mantener la seleccion del menu de la pagina actual*/
+body#item1 a.selected1{
+	background: #C7E046;
+	color: black;
+}
+
+/*DiseÃƒÆ’Ã‚Â±o del cuerpo*/
+body{
+	background: #000000;
+	margin:0;
+	padding:0;
+}
+
+/*Primer div para la imagen principal*/
+#div_imagen{
+	display: flex;
+	justify-content: center;
+	align-items: center;  	
+	background-image:url("imagenes css3/PG_IN_DJI_0014_PAGE1.jpg");
+	background-size:100%;
+	height:35em;
+}
+
+/*Segundo div de la imagen principal para la caja de transparencia*/
+#div_imagen_rgba{
+	display: flex;
+	justify-content: center;
+	align-items: center;  	
+	background-color:rgba(0,0,0,0.2); /* rgbA */
+	width:100%;
+}
+
+/*Tercer div de la imagen principal para el estilo del texto*/
+#div_imagen_texto{
+	width:12em;
+	font-family: Arial;
+	font-size: 3em;	
+	color:#ffffff;
+	text-align:center;
+}

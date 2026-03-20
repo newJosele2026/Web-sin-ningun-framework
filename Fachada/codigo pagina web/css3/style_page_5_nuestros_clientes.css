@@ -1,0 +1,230 @@
+/*Primer div principal de la pÃƒÂ¡gina*/
+#div_principal{
+	display: flex;
+	justify-content: center;
+	align-items: center;  	
+	height:35em;
+	background-color:white;
+	margin:0;
+	padding:0;
+}
+
+/*TamaÃƒÂ±o de la tabla*/
+.normal{
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+th#fila_1{
+	width:40em;
+	height:13em;
+}
+
+/*Primer div para la imagen principal*/
+#div_imagen_1{
+	/*display: flex;
+	justify-content: center;
+	align-items: center;  	*/
+	background-image:url("imagenes css3/PG_NC_POR_ESC_ING_MIL.jpg");
+	background-size:100% 100%;
+	width:40em;
+	height:13em;
+}
+
+/*Segundo div de la imagen principal para la caja de transparencia*/
+#div_imagen_rgba{
+	display: flex;
+	justify-content: center;
+	align-items: center;  	
+	background-color:rgba(0,0,0,0.3); /* rgbA */
+	width:100%;
+	height:100%;
+}
+
+#div_imagen_texto{
+	width:10em;
+	font-family: Arial;
+	font-size: 2em;	
+	color:#ffffff;
+	text-align:center;
+}
+
+#div_imagen_escudo{
+	background-color:white;
+	background-image:url("imagenes css3/PG_NC_LOGO_ESC_ING.png");
+	background-size:50% 70%;
+	background-position:center;
+	background-repeat:no-repeat;
+	border: solid #211915 8px;
+	width:12em;
+	height:12em;	
+}
+
+td#fila_2{
+	width:40em;
+	height:13em;
+}
+
+/*Primer div para la imagen principal*/
+#div_imagen_2{
+	background-image:url("imagenes css3/PG_NC_CE_CO_CA_IMG_8077.jpg");
+	background-size:100% 100%;
+	width:40em;
+	height:13em;
+}
+
+/*Segundo div de la imagen principal para la caja de transparencia*/
+#div_imagen_rgba_2{
+	display: flex;
+	justify-content: center;
+	align-items: center;  	
+	background-color:rgba(0,0,0,0.3); /* rgbA */
+	width:100%;
+	height:100%;
+}
+
+#div_imagen_texto_2{
+	width:10em;
+	font-family: Arial;
+	font-size: 2em;	
+	color:#ffffff;
+	text-align:center;
+}
+
+#div_imagen_escudo_2{
+	background-color:white;
+	background-image:url("imagenes css3/PG_NC_CE_CO_CA_LOGO.jpg");
+	background-size:100% 100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	border: solid #C7E046 8px;
+	width:12em;
+	height:12em;	
+}
+
+td#fila_3{
+	width:40em;
+	height:13em;
+}
+
+/*Primer div para la imagen principal*/
+#div_imagen_3{
+	background-image:url("imagenes css3/PG_NC_WQ9A9238.jpg");
+	background-size:100% 100%;
+	width:40em;
+	height:13em;
+}
+
+/*Segundo div de la imagen principal para la caja de transparencia*/
+#div_imagen_rgba_3{
+	display: flex;
+	justify-content: center;
+	align-items: center;  	
+	background-color:rgba(0,0,0,0.3); /* rgbA */
+	width:100%;
+	height:100%;
+}
+
+#div_imagen_texto_3{
+	width:10em;
+	font-family: Arial;
+	font-size: 2em;	
+	color:#ffffff;
+	text-align:center;
+}
+
+#div_imagen_escudo_3{
+	background-color:white;
+	background-image:url("imagenes css3/PG_NC_LOGO_ENC.png");
+	background-size:100% 100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	border: solid #211915 8px;
+	width:12em;
+	height:12em;	
+}
+
+/*Segundo div (lado izquierdo de la pagina) para el texto*/
+#div_principal_derecho{
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	margin:0;
+	padding:0;
+	width:40em;
+}
+
+#texto_nuestros_clientes{
+	width:34em;
+	font-family: Arial;
+	color:#000000;
+	text-align:justify;
+}
+
+/*Icono de la mision*/
+div#IC_NC{
+	background-image:url("imagenes css3/PG-NC-IC-CL.png");
+	background-size:85%;
+	height:4em;
+	width:4em;
+	background-repeat:no-repeat;
+}
+
+P#titulo{
+	font-family: fantasy;
+	font-size:2em;
+	text-align:center;
+}
+
+/*Estilo del texto del subtitulo*/
+P#subtitulo{
+	font-family: cursive;
+	text-align:center;
+}
+
+/*Bloque de elementos del menu*/
+#div_menu{
+	display: flex;
+	justify-content: center;
+	align-items: center;  
+	margin-top:1em;
+	width:100% ; 
+	
+	position:fixed ; 
+	bottom:0;
+	right:0;
+	left:0;
+	overflow:auto;
+/*	background-color:red;*/
+	/*text-align:left;  */
+	/*border:1px solid #000000;*/
+}
+
+/*Elementos del menu*/
+#menu{
+	padding:0;
+}
+
+#menu li{
+	/*Menu horizontal*/
+	display: inline;
+}
+
+#menu li a {
+	/*DiseÃƒÂ±o de la letra en el menu*/
+	font-family: Arial;
+	font-size: 100%;
+	text-decoration: none;
+	float: left;
+	/*DiseÃƒÂ±o del menu*/
+	padding: 0.8em;
+	background-color: black;
+	color: #C7E046;
+}
+ 
+/*Mantener la seleccion del menu de la pagina actual*/
+body#item4 a.selected4{
+	background: #C7E046;
+	color: black;
+}

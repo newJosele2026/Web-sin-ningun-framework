@@ -1,0 +1,210 @@
+/*Línea horizontal en la parte superios*/
+hr.linea{
+	margin-top:2em;
+	margin-left:0 auto;
+	margin-right:0 auto;
+	height:1em;
+	background-color:#C7E046;
+	border:none;
+}
+/*Bloque de elementos del menu*/
+#div_menu{
+	display: flex;
+	justify-content: center;
+	align-items: center;  
+	margin-top:1em;
+	width:100% ; 
+	
+	position:fixed ; 
+	bottom:0;
+	right:0;
+	left:0;
+	overflow:auto;
+/*	background-color:red;*/
+	/*text-align:left;  */
+	/*border:1px solid #000000;*/
+}
+
+/*Elementos del menu*/
+#menu{
+	padding:0;
+}
+
+#menu li{
+	/*Menu horizontal*/
+	display: inline;
+}
+
+#menu li a {
+	/*Diseño de la letra en el menu*/
+	font-family: Arial;
+	font-size: 100%;
+	text-decoration: none;
+	float: left;
+	/*Diseño del menu*/
+	padding: 0.8em;
+	background-color: black;
+	color: #C7E046;
+}
+ 
+/*Mantener la seleccion del menu de la pagina actual*/
+body#item2 a.selected2{
+	background: #C7E046;
+	color: black;
+}
+
+/*Diseño del cuerpo*/
+body{
+	background: #000000;
+	margin:0;
+	padding:0;
+}
+
+/*Primer div principal de la página*/
+#div_principal{
+	display: flex;
+	justify-content: center;
+	align-items: center;  	
+	height:35em;
+	background-color:white;
+	margin:0;
+	padding:0;
+}
+
+/*Tamaño de la tabla*/
+.normal{
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+/*Tamaño de la parte izquierda de la fila uno*/
+th#izquierdo{
+	justify-content: center;
+	align-items: center;
+	width:50em;
+	margin:0;
+	padding:0;
+}
+
+/*Tamaño de la parte derecha de la fila*/
+th#derecho{
+	width:50em;
+	background-image:url("imagenes css3/PA_QS_IM_8289_page_2_3.jpg");
+	background-size:105%;
+	background-repeat: no-repeat;
+	height:35em;
+	margin:0;
+	padding:0;
+}
+
+/*Segundo div (lado izquierdo de la pagina) para el texto*/
+#div_principal_izquierdo{
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	margin:0;
+	padding:0;
+}
+
+/*Tercer div donde se encuentra el texto*/
+#texto{
+	width:24em;
+	font-family: Arial;
+	color:#000000;
+	text-align:justify;
+}
+
+/*Estilo del texto del titulo*/
+div#IC_QS{
+	background-image:url("imagenes css3/PG_QS_ICQS_page_2_3.png");
+	background-size:100%;
+	height:3em;
+	width:5em;
+	background-repeat:no-repeat;
+}
+
+/*Icono de la mision*/
+div#IC_NM{
+	background-image:url("imagenes css3/PG_QS_IC_MI_page_2_3.png");
+	background-size:85%;
+	height:3em;
+	width:4em;
+	background-repeat:no-repeat;
+}
+
+/*Icono de la vision*/
+div#IC_NV{
+	background-image:url("imagenes css3/PG_QS_IC_VI_page_2_3.png");
+	background-size:87%;
+	height:3em;
+	width:4em;
+	background-repeat:no-repeat;
+}
+
+/*Estilo del texto del titulo*/
+P#titulo{
+	font-family: fantasy;
+	font-size:2em;
+	text-align:center;
+}
+
+/*Estilo del texto del subtitulo*/
+P#subtitulo{
+	font-family: cursive;
+	text-align:center;
+}
+
+/*Tamaño de la parte izquierda de la fila de la tabla dos*/
+th#fila_dos_izquierdo{	
+	justify-content: center;
+	align-items: center;
+	width:50em;
+	margin:0;
+	padding:0;	
+}
+
+/*Tercer div donde se encuentra el texto*/
+P#titulo_mision{
+	font-family: fantasy;
+	font-size:2em;
+	text-align:center;
+	LINE-HEIGHT:0em;
+}
+
+/*Línea horizontal*/
+hr.linea{
+	margin-top:0em;
+	margin-left:0 auto;
+	margin-right:0 auto;
+	height:0.3em;
+	background-color:#C7E046;
+	border:none;
+}
+
+#texto_mision{
+	width:34em;
+	font-family: Arial;
+	color:#000000;
+	text-align:justify;
+}
+
+th#div_derecho_dos{
+	background-image:url("imagenes css3/PA_QS_IM_8289_page_2_3.jpg");
+	margin:0;
+	padding:0;	
+	background-size:100%;
+	background-repeat: no-repeat;
+	margin:0;
+	padding:0;
+}
+
+th#derecho_dos{
+	width:75em;
+	background-image:url("imagenes css3/PA_QS_IM_8289_page_2_3.jpg");
+	background-size:105%;
+	background-repeat: no-repeat;
+	height:35em;
+	margin:0;
+	padding:0;
+}

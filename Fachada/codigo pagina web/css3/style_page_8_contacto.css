@@ -1,0 +1,122 @@
+/*Primer div para la imagen principal*/
+#item7{
+	background-color:black;
+}
+#div_imagen{
+	display: flex;
+	justify-content: center;
+	align-items: center;  	
+	background-image:url("imagenes css3/PG_CO_IMG_4665.jpg");
+	background-size:100% 100%;
+	height:48em;
+	-webkit-filter: opacity(0.9);
+}
+
+#formato{
+	font-family: cursive;
+	color:white;
+}
+
+th#fila{
+	width:40em;
+	height:4em;
+}
+
+td#fila{
+	width:40em;
+	height:4em;
+}
+
+#formato_input{
+	background-color:rgba(0,0,0,0.2); /* rgbA */
+	color:white;
+	border:none;
+}
+
+#logo_contacto{
+	background-image:url("imagenes css3/PG_IN_IC_FU_AR.png");
+	background-size:50%;
+	background-repeat:no-repeat;
+	height:15em;
+	background-position:center;
+}
+
+#titulo{
+	font-family: Arial;
+	color:white;
+	font-family: fantasy;
+	font-size:3em;
+}
+
+#subtitulo{
+	font-family: cursive;
+	color:white;
+}
+
+#estilo_boton{
+	background-color:#C7E046;
+	color:color;
+	color:black;
+	font-family: fantasy;
+	font-size:2em;
+	border-bottom:none;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	width:5em;	
+	margin-right:1em;
+	margin-left: 85%;
+	border-radius: 1em 1em 1em 1em;
+	ALIGN:RIGHT;
+}
+
+/*Bloque de elementos del menu*/
+#div_menu{
+	display: flex;
+	justify-content: center;
+	align-items: center;  
+	margin-top:1em;
+	width:100% ; 
+	
+	position:fixed ; 
+	bottom:0;
+	right:0;
+	left:0;
+	overflow:auto;
+/*	background-color:red;*/
+	/*text-align:left;  */
+	/*border:1px solid #000000;*/
+}
+
+/*Elementos del menu*/
+#menu{
+	padding:0;
+}
+
+#menu li{
+	/*Menu horizontal*/
+	display: inline;
+}
+
+#menu li a {
+	/*DiseÃƒÂ±o de la letra en el menu*/
+	font-family: Arial;
+	font-size: 100%;
+	text-decoration: none;
+	float: left;
+	/*DiseÃƒÂ±o del menu*/
+	padding: 0.8em;
+	background-color: black;
+	color: #C7E046;
+}
+ 
+/*Mantener la seleccion del menu de la pagina actual*/
+body#item7 a.selected7{
+	background: #C7E046;
+	color: black;
+}
+body{
+	margin:0px;
+	border:0px;
+	padding:0px;
+}

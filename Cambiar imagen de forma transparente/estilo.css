@@ -1,0 +1,101 @@
+*{
+	margin:0%;
+	padding:0%;
+	border:0%;
+	width:100%;
+	height:100%;
+	background-color:white;
+}
+
+body, html { 
+	margin: 0;
+	border:0;
+	padding:0;
+	height:100%;
+	width:100%;
+	display:flex;
+	background-color:black;
+}
+
+.caja1{
+	margin: 0%;
+	padding: 0%;
+	border: 0%;
+	width: 50%;
+	overflow: hidden;
+}
+.caja2{
+	margin: 0%;
+	padding: 0%;
+	border: 0%;
+	width: 50%;
+	overflow: hidden;
+}
+
+.caja1 ul{
+	margin: 0%;
+	padding: 0%;
+	border: 0%;
+	display: flex;
+	width: 200%;
+	height: 100%;
+	animation: cambio 4s infinite ;
+}
+
+
+.caja1 li{
+	list-style:none;
+	margin: 0%;
+	padding: 0%;
+	border: 0%;
+	width: 50%;
+}
+
+.caja2 ul{
+	margin: 0%;
+	padding: 0%;
+	border: 0%;
+	display: flex;
+	width: 200%;
+	height: 100%;
+	animation: cambio 4s infinite ;
+}
+
+
+.caja2 li{
+	list-style:none;
+	margin: 0%;
+	padding: 0%;
+	border: 0%;
+	width: 50%;
+}
+
+img{
+	width:100%;
+	height:100%;
+}
+
+
+@keyframes cambio{
+	/*primera imagen*/
+      0% {filter: opacity(0);
+		  margin-left: 0%;
+		  }
+	 25%{
+		  filter: opacity(0.5);
+		  filter: opacity(1);
+	 }
+	 50% { margin-left: 0%;	 
+		   filter: opacity(0);}
+	 
+	 51% {filter: opacity(0);
+		 margin-left: -100%;
+		 }
+	 75% {
+		 filter: opacity(0.5);
+		 filter: opacity(1);
+	     }
+	 100% { 
+		margin-left: -100%;
+		filter: opacity(0);}
+}
