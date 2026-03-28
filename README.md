@@ -1,8 +1,9 @@
 # Proyectos html, css y javascript
 
-## Version 0.0.1
+## Version 0.0.2
 
-Este repositorio es para subir los diferentes proyectos relacionado html, css y javascript. Pruebas de Animaciones en css.
+Este repositorio es para subir los diferentes proyectos relacionado html, css y javascript. Pruebas de Animaciones en css. 
+Tratar de llenar repositorio de animaciones en css
 
 ### Proyectos revisado
 - Animaciones de practica
@@ -14,7 +15,6 @@ Este repositorio es para subir los diferentes proyectos relacionado html, css y 
 - Espiral
 - Fachada
 - FitText.js-master
-- FullArte 
 - Lazyloading
 - Nivo-slider
 - PruebaContenedor
