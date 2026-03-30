@@ -1,6 +1,6 @@
 # Proyectos html, css y javascript
 
-## Version 0.0.2
+## Version 0.0.3
 
 Este repositorio es para subir los diferentes proyectos relacionado html, css y javascript. Pruebas de Animaciones en css. 
 Tratar de llenar repositorio de animaciones en css
